@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  min-height: 82vh;
+  background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.88)),
+              url('https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
+}
+
+.card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+}
+
+.product-img {
+  height: 210px;
+  object-fit: cover;
+}
